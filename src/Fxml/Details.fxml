@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="492.0" prefWidth="378.0" style="-fx-background-color: #d1b462;" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Details">
+    <Label layoutX="73.0" layoutY="70.0" prefHeight="38.0" prefWidth="116.0" text="Name                : ">
+        <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+        </font></Label>
+    <Label layoutX="73.0" layoutY="108.0" prefHeight="38.0" prefWidth="116.0" text="County             :  ">
+        <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+        </font></Label>
+    <Label layoutX="73.0" layoutY="146.0" prefHeight="38.0" prefWidth="116.0" text="Age                    :">
+        <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+        </font></Label>
+    <Label layoutX="73.0" layoutY="184.0" prefHeight="38.0" prefWidth="116.0" text="Height               : ">
+        <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+        </font></Label>
+    <Label layoutX="73.0" layoutY="222.0" prefHeight="38.0" prefWidth="116.0" text="Club Name       : ">
+        <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+        </font></Label>
+    <Label layoutX="73.0" layoutY="260.0" prefHeight="38.0" prefWidth="116.0" text="Position            : ">
+        <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+        </font></Label>
+    <Label layoutX="73.0" layoutY="305.0" prefHeight="38.0" prefWidth="116.0" text="Jersy Number : ">
+        <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+        </font></Label>
+    <Label layoutX="73.0" layoutY="343.0" prefHeight="38.0" prefWidth="116.0" text="Salary                :">
+        <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+        </font></Label>
+    <Label fx:id="name" layoutX="204.0" layoutY="70.0" prefHeight="38.0" prefWidth="207.0" textFill="WHITE">
+        <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+        </font></Label>
+    <Label fx:id="countryName" layoutX="204.0" layoutY="108.0" prefHeight="38.0" prefWidth="146.0" textFill="WHITE">
+        <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+        </font></Label>
+    <Label fx:id="age" layoutX="204.0" layoutY="146.0" prefHeight="38.0" prefWidth="146.0" textFill="WHITE">
+        <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+        </font></Label>
+    <Label fx:id="height" layoutX="204.0" layoutY="184.0" prefHeight="38.0" prefWidth="146.0" textFill="WHITE">
+        <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+        </font></Label>
+    <Label fx:id="clubName" layoutX="204.0" layoutY="222.0" prefHeight="38.0" prefWidth="146.0" textFill="WHITE">
+        <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+        </font></Label>
+    <Label fx:id="position" layoutX="204.0" layoutY="260.0" prefHeight="38.0" prefWidth="146.0" textFill="WHITE">
+        <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+        </font></Label>
+    <Label fx:id="salary" layoutX="204.0" layoutY="343.0" prefHeight="38.0" prefWidth="146.0" textFill="WHITE">
+        <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+        </font></Label>
+    <Label fx:id="jersyNumber" layoutX="204.0" layoutY="305.0" prefHeight="38.0" prefWidth="146.0" textFill="WHITE">
+        <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+        </font></Label>
+   <JFXButton layoutX="233.0" layoutY="413.0" onAction="#Back" prefHeight="38.0" prefWidth="88.0" style="-fx-background-color: #4e524f;" text="Close" textFill="WHITE">
+      <font>
+         <Font name="Barlow Condensed ExtraBold Italic" size="22.0" />
+      </font>
+   </JFXButton>
+</AnchorPane>

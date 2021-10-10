@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="580.0" prefWidth="515.0" style="-fx-background-color: #4e524f;" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SearchClub">
+   <children>
+      <TableView fx:id="Table" layoutX="5.0" layoutY="190.0" prefHeight="200.0" prefWidth="515.0" stylesheets="@../style.css">
+        <columns>
+          <TableColumn fx:id="Name" prefWidth="156.79998779296875" text="Name" />
+            <TableColumn fx:id="Country" prefWidth="88.0" text="Country" />
+            <TableColumn fx:id="Age" prefWidth="35.20001220703125" text="Age" />
+            <TableColumn fx:id="Height" prefWidth="55.2000732421875" text="Height" />
+            <TableColumn fx:id="Position" prefWidth="84.00006103515625" text="Position" />
+            <TableColumn fx:id="Salary" prefWidth="92.80000610351567" text="Salary" />
+        </columns>
+      </TableView>
+      <Label fx:id="totalSalary" layoutX="111.0" layoutY="118.0" prefHeight="52.0" prefWidth="354.0" textFill="WHITE">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="22.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="14.0" layoutY="38.0" onAction="#findMaxSalary" prefHeight="66.0" prefWidth="119.0" style="-fx-background-color: #d1b462;" text="Maximum Salary" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Barlow Condensed ExtraBold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="144.0" layoutY="38.0" onAction="#findMaxAge" prefHeight="66.0" prefWidth="119.0" style="-fx-background-color: #d1b462;" text="Maximum Age" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Barlow Condensed ExtraBold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="276.0" layoutY="38.0" onAction="#findMaxHeight" prefHeight="66.0" prefWidth="119.0" style="-fx-background-color: #d1b462;" text="Maximum Height" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Barlow Condensed ExtraBold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="405.0" layoutY="38.0" onAction="#TotalSalary" prefHeight="66.0" prefWidth="119.0" style="-fx-background-color: #d1b462;" text="Total Yearly Salary" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Barlow Condensed ExtraBold" size="20.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

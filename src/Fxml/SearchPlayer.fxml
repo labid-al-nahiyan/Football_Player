@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="580.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SearchPlayer">
+   <children>
+      <BorderPane fx:id="searchPane" prefHeight="580.0" prefWidth="700.0" style="-fx-background-color: #4e524f;">
+         <left>
+            <AnchorPane fx:id="serchPane" prefHeight="580.0" prefWidth="180.0" style="-fx-background-color: #d1b462;" BorderPane.alignment="CENTER">
+               <children>
+                  <Text layoutX="26.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Football" textAlignment="CENTER" wrappingWidth="120.53675079345703">
+                     <font>
+                        <Font name="Barlow Condensed ExtraBold" size="35.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="33.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manager" textAlignment="CENTER" wrappingWidth="88.09101867675781">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <JFXButton layoutX="20.0" layoutY="131.0" onAction="#SearchByName" prefHeight="46.0" prefWidth="154.0" style="-fx-background-color: #4e524f;" text="Player Name" textFill="WHITE">
+                     <font>
+                        <Font name="Barlow Condensed ExtraBold Italic" size="24.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="20.0" layoutY="185.0" onAction="#SearchByCountryAndClub" prefHeight="46.0" prefWidth="154.0" style="-fx-background-color: #4e524f;" text="Country" textFill="WHITE">
+                     <font>
+                        <Font name="Barlow Condensed ExtraBold Italic" size="24.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="20.0" layoutY="242.0" onAction="#SearchByPosition" prefHeight="46.0" prefWidth="154.0" style="-fx-background-color: #4e524f;" text="Position" textFill="WHITE">
+                     <font>
+                        <Font name="Barlow Condensed ExtraBold Italic" size="24.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="20.0" layoutY="296.0" onAction="#SearchBySalary" prefHeight="46.0" prefWidth="154.0" style="-fx-background-color: #4e524f;" text="Salary" textFill="WHITE">
+                     <font>
+                        <Font name="Barlow Condensed ExtraBold Italic" size="24.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="20.0" layoutY="355.0" onAction="#SearchByHeight" prefHeight="46.0" prefWidth="154.0" style="-fx-background-color: #4e524f;" text="Height" textFill="WHITE">
+                     <font>
+                        <Font name="Barlow Condensed ExtraBold Italic" size="24.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="20.0" layoutY="411.0" onAction="#SearchByCountryWise" prefHeight="46.0" prefWidth="154.0" style="-fx-background-color: #4e524f;" text="Country Wise Player Count" textFill="WHITE">
+                     <font>
+                        <Font name="Barlow Condensed ExtraBold Italic" size="13.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="20.0" layoutY="518.0" onAction="#BackToMainMenu" prefHeight="46.0" prefWidth="154.0" style="-fx-background-color: #4e524f;" text="Back" textFill="WHITE">
+                     <font>
+                        <Font name="Barlow Condensed ExtraBold Italic" size="24.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </AnchorPane>
+         </left>
+         <center>
+            <Label fx:id="clubBanne" prefHeight="234.0" prefWidth="479.0" style="-fx-line-spacing: -50;" text="Welcome Arsenal" textAlignment="CENTER" textOverrun="CLIP" wrapText="true" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Barlow Condensed ExtraBold" size="81.0" />
+               </font>
+            </Label>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

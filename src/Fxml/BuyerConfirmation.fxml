@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="200.0" prefWidth="450.0" style="-fx-background-color: #d1b462;" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.BuyerConfirmation">
+    <children>
+        <Label layoutX="83.0" layoutY="42.0" prefHeight="39.0" prefWidth="274.0" text="Are you sure to buy this player?" textAlignment="CENTER" textFill="#4e524f">
+            <font>
+                <Font name="Barlow Condensed ExtraBold Italic" size="23.0" />
+            </font>
+        </Label>
+      <JFXButton layoutX="83.0" layoutY="107.0" onAction="#Confirm" prefHeight="50.0" prefWidth="104.0" style="-fx-background-color: #4e524f;" text="Confirm" textFill="WHITE">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="234.0" layoutY="107.0" onAction="#Cancle" prefHeight="50.0" prefWidth="104.0" style="-fx-background-color: #4e524f;" text="Cancle" textFill="WHITE">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="24.0" />
+         </font>
+      </JFXButton>
+    </children>
+</AnchorPane>

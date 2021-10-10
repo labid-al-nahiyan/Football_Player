@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="580.0" prefWidth="515.0" style="-fx-background-color: #4e524f;" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SearchPlayerByClubAndCountry">
+   <children>
+      <Label layoutX="34.0" layoutY="42.0" prefHeight="35.0" prefWidth="112.0" text="Country :" textFill="WHITE">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="24.0" />
+         </font>
+      </Label>
+      <TableView fx:id="Table" layoutX="36.0" layoutY="177.0" prefHeight="358.0" prefWidth="444.0" stylesheets="@../style.css">
+        <columns>
+          <TableColumn fx:id="Name" prefWidth="175.20001983642578" text="Name" />
+            <TableColumn fx:id="Age" prefWidth="81.5999755859375" text="Age" />
+            <TableColumn fx:id="Position" prefWidth="88.0" text="Position" />
+            <TableColumn fx:id="Detail" prefWidth="100.0" text="Detail" />
+        </columns>
+      </TableView>
+      <JFXButton layoutX="239.0" layoutY="89.0" onAction="#Submit" prefHeight="35.0" prefWidth="95.0" style="-fx-background-color: #d1b462;" text="Search">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="22.0" />
+         </font>
+      </JFXButton>
+      <JFXTextArea id="textArea" fx:id="country" focusColor="WHITE" layoutX="26.0" layoutY="78.0" prefHeight="53.0" prefWidth="174.0" unFocusColor="WHITE">
+         <font>
+            <Font name="Arial Narrow" size="20.0" />
+         </font>
+      </JFXTextArea>
+   </children>
+</AnchorPane>

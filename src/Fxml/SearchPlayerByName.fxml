@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="580.0" prefWidth="490.0" style="-fx-background-color: #4e524f;" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SearchPlayerByName">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d1b462" height="344.0" layoutX="45.0" layoutY="211.0" stroke="BLACK" strokeType="INSIDE" width="425.0" />
+      <Label contentDisplay="TEXT_ONLY" layoutX="73.0" layoutY="47.0" prefHeight="38.0" prefWidth="250.0" text="Enter Player Name :" textFill="WHITE">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="22.0" />
+         </font>
+         <opaqueInsets>
+            <Insets top="2.0" />
+         </opaqueInsets>
+      </Label>
+       
+      <Label layoutX="73.0" layoutY="226.0" prefHeight="38.0" prefWidth="116.0" text="Name                : ">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+         </font></Label>
+      <Label layoutX="73.0" layoutY="267.0" prefHeight="38.0" prefWidth="116.0" text="County             :  ">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+         </font></Label>
+      <Label layoutX="73.0" layoutY="306.0" prefHeight="38.0" prefWidth="116.0" text="Age                    :">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+         </font></Label>
+      <Label layoutX="73.0" layoutY="344.0" prefHeight="38.0" prefWidth="116.0" text="Height               : ">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+         </font></Label>
+      <Label layoutX="73.0" layoutY="382.0" prefHeight="38.0" prefWidth="116.0" text="Club Name       : ">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+         </font></Label>
+      <Label layoutX="73.0" layoutY="420.0" prefHeight="38.0" prefWidth="116.0" text="Position            : ">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+         </font></Label>
+      <Label layoutX="73.0" layoutY="458.0" prefHeight="38.0" prefWidth="116.0" text="Jersy Number : ">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+         </font></Label>
+      <Label layoutX="73.0" layoutY="503.0" prefHeight="38.0" prefWidth="116.0" text="Salary                :">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+         </font></Label>
+      <Label fx:id="name" layoutX="212.0" layoutY="226.0" prefHeight="38.0" prefWidth="207.0" textFill="WHITE">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+         </font></Label>
+      <Label fx:id="countryName" layoutX="212.0" layoutY="267.0" prefHeight="38.0" prefWidth="146.0" textFill="WHITE">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+         </font></Label>
+      <Label fx:id="age" layoutX="212.0" layoutY="306.0" prefHeight="38.0" prefWidth="146.0" textFill="WHITE">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+         </font></Label>
+      <Label fx:id="height" layoutX="212.0" layoutY="344.0" prefHeight="38.0" prefWidth="146.0" textFill="WHITE">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+         </font></Label>
+      <Label fx:id="clubName" layoutX="212.0" layoutY="382.0" prefHeight="38.0" prefWidth="146.0" textFill="WHITE">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+         </font></Label>
+      <Label fx:id="position" layoutX="212.0" layoutY="420.0" prefHeight="38.0" prefWidth="146.0" textFill="WHITE">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+         </font></Label>
+      <Label fx:id="salary" layoutX="212.0" layoutY="503.0" prefHeight="38.0" prefWidth="146.0" textFill="WHITE">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+         </font></Label>
+      <Label fx:id="jersyNumber" layoutX="212.0" layoutY="458.0" prefHeight="38.0" prefWidth="146.0" textFill="WHITE">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+         </font></Label>
+      <JFXTextArea fx:id="playerName" focusColor="WHITE" labelFloat="true" layoutX="73.0" layoutY="76.0" prefHeight="54.0" prefWidth="207.0" unFocusColor="WHITE">
+         <font>
+            <Font name="Barlow Condensed ExtraBold" size="22.0" />
+         </font>
+      </JFXTextArea>
+      <JFXButton layoutX="73.0" layoutY="158.0" onAction="#Submit" prefHeight="38.0" prefWidth="86.0" style="-fx-background-color: #d1b462;" text="Search" textFill="WHITE">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="20.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

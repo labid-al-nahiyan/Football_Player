@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="335.0" prefWidth="650.0" style="-fx-background-color: #4e524f;" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoginController">
+
+   <children>
+      <Label layoutX="37.0" layoutY="102.0" prefHeight="34.0" prefWidth="163.0" style="-fx-background-color: #4e524f;" text="Enter Club Name :" textFill="WHITE">
+         <font>
+            <Font name="Barlow Condensed ExtraBold" size="20.0" />
+         </font>
+      </Label>
+      <VBox layoutX="319.0" prefHeight="335.0" prefWidth="331.0" style="-fx-background-color: #d1b462;">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FootBall" textAlignment="CENTER" wrappingWidth="225.33673095703125">
+               <font>
+                  <Font name="Barlow Condensed ExtraBold" size="71.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="60.0" top="80.0" />
+               </VBox.margin>
+            </Text>
+            <Text fx:id="manager" strokeType="OUTSIDE" strokeWidth="0.0" text="Manager" textAlignment="CENTER" wrappingWidth="171.3387451171875">
+               <font>
+                  <Font name="Arial Narrow" size="47.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="-20.0" left="60.0" />
+               </VBox.margin>
+            </Text>
+         </children>
+      </VBox>
+      <JFXButton layoutX="33.0" layoutY="199.0" onAction="#Submit" prefHeight="42.0" prefWidth="98.0" style="-fx-background-color: #d1b462;" text="Login">
+         <font>
+            <Font name="Barlow Condensed ExtraBold" size="22.0" />
+         </font>
+      </JFXButton>
+      <JFXTextArea fx:id="ClubInput" focusColor="WHITE" layoutX="33.0" layoutY="136.0" prefHeight="0.0" prefWidth="230.0" styleClass="text-area" unFocusColor="WHITE">
+         <font>
+            <Font name="Arial Narrow" size="20.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </JFXTextArea>
+   </children>
+</AnchorPane>

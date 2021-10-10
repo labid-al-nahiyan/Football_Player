@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="580.0" prefWidth="515.0" style="-fx-background-color: #4e524f;" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SellPlayer">
+   <children>
+      <TableView id="table" fx:id="Table" layoutX="14.0" layoutY="122.0" prefHeight="363.0" prefWidth="486.0" stylesheets="@../style.css">
+        <columns>
+          <TableColumn id="coloum" fx:id="Name" prefWidth="177.60004234313965" text="   Name" />
+            <TableColumn id="coloum" fx:id="Position" prefWidth="103.199951171875" text=" Position" />
+            <TableColumn id="coloum" fx:id="Age" prefWidth="46.0" text="  Age" />
+            <TableColumn id="coloum" fx:id="Action" prefWidth="76.0" text="  Action" />
+            <TableColumn id="coloum" fx:id="jction" prefWidth="81.5999816894531" text="Details" />
+        </columns>
+      </TableView>
+      <Label layoutX="144.0" layoutY="55.0" prefHeight="34.0" prefWidth="212.0" style="-fx-border-color: #fff0c4; -fx-background-color: #d1b462;" text="            Player List " textFill="WHITE">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

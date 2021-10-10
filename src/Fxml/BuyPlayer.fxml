@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="580.0" prefWidth="515.0" style="-fx-background-color: #4e524f;" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.BuyPlayer">
+    <children>
+        <TableView fx:id="Table" layoutX="14.0" layoutY="110.0" prefHeight="395.0" prefWidth="486.0" stylesheets="@../style.css">
+            <columns>
+                <TableColumn fx:id="Name" prefWidth="136.0000057220459" text="Name" />
+                <TableColumn fx:id="Position" prefWidth="91.20001220703125" text="Position" />
+                <TableColumn fx:id="Age" minWidth="0.0" prefWidth="69.5999755859375" text="Age" />
+                <TableColumn fx:id="Action" prefWidth="84.7999267578125" text="Action" />
+                <TableColumn fx:id="detail" prefWidth="104.800048828125" text="Detail" />
+            </columns>
+        </TableView>
+        <Label layoutX="170.0" layoutY="46.0" prefHeight="38.0" prefWidth="182.0" style="-fx-background-color: #d1b462; -fx-border-color: #fff0c4;" text="Player List" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Barlow Condensed ExtraBold Italic" size="27.0" />
+            </font>
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+            <padding>
+                <Insets left="35.0" />
+            </padding>
+        </Label>
+    </children>
+</AnchorPane>

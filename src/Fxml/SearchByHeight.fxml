@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="580.0" prefWidth="515.0" style="-fx-background-color: #4e524f;" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SearchByHeight">
+   <children>
+      <Label layoutX="63.0" layoutY="50.0" prefHeight="42.0" prefWidth="158.0" text="Enter Higher Limit :" textFill="WHITE">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="22.0" />
+         </font>
+      </Label>
+      <TableView fx:id="Table" layoutX="24.0" layoutY="212.0" prefHeight="320.0" prefWidth="467.0" stylesheets="@../style.css">
+        <columns>
+          <TableColumn fx:id="Name" prefWidth="211.20001792907715" text="Name" />
+            <TableColumn fx:id="Age" prefWidth="47.20001220703125" text="Age" />
+            <TableColumn fx:id="Position" prefWidth="112.0" text="Position" />
+            <TableColumn fx:id="Detail" prefWidth="94.4000244140625" text="Detail" />
+        </columns>
+      </TableView>
+      <Label layoutX="310.0" layoutY="50.0" prefHeight="42.0" prefWidth="158.0" text="Enter Lower Limit :" textFill="WHITE">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="22.0" />
+         </font>
+      </Label>
+      <JFXTextArea fx:id="HigherLimit" focusColor="WHITE" layoutX="63.0" layoutY="92.0" prefHeight="42.0" prefWidth="200.0" unFocusColor="WHITE">
+         <font>
+            <Font name="Arial Narrow Italic" size="20.0" />
+         </font>
+      </JFXTextArea>
+      <JFXTextArea fx:id="LowerLimit" focusColor="WHITE" layoutX="310.0" layoutY="92.0" prefHeight="42.0" prefWidth="200.0" unFocusColor="WHITE">
+         <font>
+            <Font name="Arial Narrow" size="20.0" />
+         </font>
+      </JFXTextArea>
+      <JFXButton layoutX="221.0" layoutY="151.0" onAction="#Submit" prefHeight="42.0" prefWidth="118.0" style="-fx-background-color: #d1b462;" text="Search" textFill="WHITE">
+         <font>
+            <Font name="Barlow Condensed ExtraBold Italic" size="22.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="580.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainMenu">
+   <children>
+      <BorderPane fx:id="mainPane" layoutX="-4.0" layoutY="-3.0" prefHeight="586.0" prefWidth="707.0" style="-fx-background-color: #4e524f;">
+         <left>
+            <AnchorPane prefHeight="586.0" prefWidth="180.0" style="-fx-background-color: #d1b462;" BorderPane.alignment="CENTER">
+               <children>
+                  <JFXButton layoutX="11.0" layoutY="204.0" onAction="#searchPlayer" prefHeight="50.0" prefWidth="155.0" style="-fx-background-color: #4e524f;" text="Search Player" textFill="WHITE">
+                     <font>
+                        <Font name="Barlow Condensed ExtraBold Italic" size="24.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="11.0" layoutY="263.0" onAction="#searchClub" prefHeight="50.0" prefWidth="155.0" style="-fx-background-color: #4e524f;" text="Search Club" textFill="WHITE">
+                     <font>
+                        <Font name="Barlow Condensed ExtraBold Italic" size="24.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="11.0" layoutY="320.0" onAction="#marketPlace" prefHeight="50.0" prefWidth="155.0" style="-fx-background-color: #4e524f;" text="Market Place" textFill="WHITE">
+                     <font>
+                        <Font name="Barlow Condensed ExtraBold Italic" size="24.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="11.0" layoutY="520.0" onAction="#LogOut" prefHeight="47.0" prefWidth="155.0" style="-fx-background-color: #4e524f;" text="Log Out" textFill="WHITE">
+                     <font>
+                        <Font name="Barlow Condensed ExtraBold Italic" size="24.0" />
+                     </font>
+                  </JFXButton>
+                  <Text layoutX="26.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Football" textAlignment="CENTER" wrappingWidth="120.53675079345703">
+                     <font>
+                        <Font name="Barlow Condensed ExtraBold" size="35.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="33.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manager" textAlignment="CENTER" wrappingWidth="88.09101867675781">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </left>
+         <center>
+            <Label fx:id="clubBanne" prefHeight="296.0" prefWidth="370.0" style="-fx-line-spacing: -50;" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Barlow Condensed ExtraBold" size="80.0" />
+               </font>
+            </Label>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
