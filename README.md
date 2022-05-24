@@ -1,5 +1,5 @@
 <h1> Football Player </h1>
-<h4> This project is done by me in collect 2nd semister between 1.5 weeks. Through this project I can clear my concept about networking and multi thread topic of JAVA.</h4>
+<h4> This project is done by me in college 2nd semister between 1.5 weeks. Through this project I can clear my concept about networking and multi thread topic of JAVA.</h4>
 
 <h6> Features :</h6>
 <ul>
