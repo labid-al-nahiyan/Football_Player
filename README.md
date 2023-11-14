@@ -1,6 +1,6 @@
 # Football Player Managment
  
- The project was coded by JAVA in  Level-1/Term-2. JAVAFX was used for graphical interface. 
+ This was JAVA project for CSE-108 in  Level-1/Term-2. Website Builder JAVAFX was used for graphical interface. 
 
 ### Features :
 
